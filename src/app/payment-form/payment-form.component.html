@@ -1,0 +1,41 @@
+<div class="container">
+
+  <form #signIn="ngForm" [formGroup]="paymentForm" (ngSubmit)="sendPayment()">
+    <div class="heading">
+    <h1 class="text-black text-center" id="h11">PAYMENT FORM</h1>
+  </div>
+  <br>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter Full Name</mat-label>
+      <input matInput placeholder="Enter Full Name" name="name" name required ngModel formControlName="name">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field><br>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter Amount</mat-label>
+      <input matInput placeholder="$0000" name="amount" amount required ngModel formControlName="amount">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field><br>
+  </p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Enter UPI Id</mat-label>
+    <input matInput placeholder="user@gmail.com" name="email" email required ngModel formControlName="upi">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+  </mat-form-field><br>
+</p>
+
+
+<button mat-flat-button color="primary" [disabled]="!signIn.value" class="b1"  (click)="payment()">PAY NOW</button><br><br>
+
+</form>
+</div>
+
+
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <!-- <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Install</button> -->
+</mat-dialog-actions>

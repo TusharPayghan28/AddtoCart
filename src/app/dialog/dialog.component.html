@@ -1,0 +1,28 @@
+<br>
+<div class="container">
+
+<div class="card mb-3" id="card3">
+  <div class="row g-0" id="row1">
+    <div class="col-md-4" style="display: flex; justify-content: center; align-items: center; padding: 20px;">
+      <img src="{{data.image}}" alt="..." height="200">
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title">{{data.title}}</h3>
+        <h4 class="card-text"><small class="text-white">{{data.category}}</small></h4>
+        <h5 class="card-title text-white">Form {{data.price | currency:"INR"}}</h5>
+        <p class="card-text">{{data.description}}</p>
+
+      </div>
+
+      <!-- <div class="row"> -->
+        <button (click)="addData(data)" class="btn btn-warning" id="btn">Add To Card</button>
+        <button mat-raised-button color="primary" mat-dialog-close id="btn">Close</button>
+      <!-- </div> -->
+    </div>
+
+
+  </div>
+</div>
+</div>

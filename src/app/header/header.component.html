@@ -1,0 +1,430 @@
+<!-- <p>
+  <mat-toolbar color="primary">
+
+    <a class="navbar-brand text-white"  routerLink="/home" style="padding: 20px;">HOME</a>
+    <span class="example-spacer"></span>
+    <input type="search" (keyup)="search($event)"  #text class="form-control form-control-white text-bg-white" placeholder="Search...">
+
+    <a routerLink="/cart" class="navbar-brand text-white">
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon matBadge="{{cartCount}}" matBadgeColor="warn">shopping_cart</mat-icon>
+    </button>
+    </a>
+
+  </mat-toolbar>
+</p>
+
+
+ <div class="d-flex justify-content-center" id="div1">
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Mens Casual')"><div class="row" id="a3"><img src="http://www.pensrus.com/blog/wp-content/uploads/2013/04/Promotional_Branded_T.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">T-Shirts</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Jacket')"><div class="row" id="a3"><img src="https://cf.shopee.co.id/file/8d2be274bdce3e31719226aa3fe38873" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Jacket</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Hard Drive')"><div class="row" id="a3"><img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81WFWi9sKlL._SY450_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Hard Drive</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('SSD')"><div class="row" id="a3"><img src="https://s3.amazonaws.com/rocketstockassets/uploads/SSD-CARDS.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Internal SSD</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Acer')"><div class="row" id="a3"><img src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Acer</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Monitor')"><div class="row" id="a3"><img src="https://images-na.ssl-images-amazon.com/images/I/714mr6GxecL._SL1200_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Monitor</div></a>
+  </div>
+  </div> -->
+
+
+
+
+
+
+
+  <div class="header_section">
+
+    <!-- <div class="container"> -->
+
+
+<div class="main">
+
+      <!-- <p> -->
+        <mat-toolbar>
+          <!-- <span class="text-uppercase" id="head">tushar</span> -->
+
+          <img src="https://cdn.icon-icons.com/icons2/1195/PNG/512/1490889698-amazon_82521.png" alt="" height="50" width="100">
+        <span class="example-spacer">
+          <div class="heading text-uppercase">
+            <marquee direction="right" scrollamount="10">Sale is Live !! </marquee>
+          </div>
+        </span>
+
+        <a routerLink="/home" class="navbar-brand text-black">
+          <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon class="text-white">home</mat-icon>
+          </button>
+          </a>
+
+        <a routerLink="/cart" class="navbar-brand text-black">
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon matBadge="{{cartCount}}" class="text-white">shopping_cart</mat-icon>
+        </button>
+        </a>
+
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+         <mat-icon class="text-white">share</mat-icon>
+       </button>
+      </mat-toolbar>
+      <!-- </p> -->
+
+      <!-- <p> -->
+        <mat-toolbar>
+
+          <a class="navbar-brand text-white"  routerLink="/home" style="padding: 20px;">All</a>
+          <span class="example-spacer"></span>
+          <input type="search" (keyup)="search($event)" #text class="form-control form-control-white text-bg-white" placeholder="Search...">
+
+
+          <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+            <mat-icon class="text-white">search</mat-icon>
+          </button>
+        </mat-toolbar>
+      <!-- </p> -->
+    </div>
+
+
+<!--
+
+    <div class="slider">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+
+
+            <div class="row">
+             <div class="col-md-4" id="div1">
+              <h1 id="desco">50% Discount</h1>
+
+              <h1 id="desco1">Online Shop</h1>
+              <p id="para">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              </p>
+
+              <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+             </div>
+             <div class="col-md-8">
+              <img src="../../assets/images/Pngtree.png" class="d-block w-100" alt="..." height="400px">
+             </div>
+            </div>
+
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+
+            <div class="row">
+              <div class="col-md-4" id="div1">
+               <h1 id="desco" >10% Discount</h1>
+
+               <h1 id="desco1">Online Shop</h1>
+               <p id="para">
+                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+               </p>
+
+               <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+              </div>
+              <div class="col-md-8">
+               <img src="../../assets/images/pngtree2.png" class="d-block w-100" alt="..." height="400px">
+              </div>
+             </div>
+
+
+          </div>
+          <div class="carousel-item">
+
+
+            <div class="row">
+              <div class="col-md-4" id="div1">
+               <h1 id="desco">25% Discount</h1>
+
+               <h1 id="desco1">Online Shop</h1>
+               <p id="para">
+                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+               </p>
+
+               <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+              </div>
+              <div class="col-md-8">
+               <img src="../../assets/images/pngtree4.png" class="d-block w-100" alt="..." height="400px">
+              </div>
+             </div>
+
+          </div>
+        </div>
+
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+         <img src="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Previous-icon.png" alt="" class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <img src="	https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Next-icon.png" alt="" class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+
+
+
+    </div> -->
+
+<!--
+    <div class="slider1">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+
+
+            <div class="row">
+             <div class="col-md-4" id="div1">
+              <h1 id="desco">50% Discount</h1>
+
+              <h1 id="desco1">Online Shop</h1>
+              <p id="para">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              </p>
+
+              <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+             </div>
+             <div class="col-md-8">
+              <img src="../../assets/images/Pngtree.png" class="d-block w-100" alt="..." height="400px">
+             </div>
+            </div>
+
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+
+            <div class="row">
+              <div class="col-md-4" id="div1">
+               <h1 id="desco" >10% Discount</h1>
+
+               <h1 id="desco1">Online Shop</h1>
+               <p id="para">
+                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+               </p>
+
+               <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+              </div>
+              <div class="col-md-8">
+               <img src="../../assets/images/pngtree2.png" class="d-block w-100" alt="..." height="400px">
+              </div>
+             </div>
+
+
+          </div>
+          <div class="carousel-item">
+
+
+            <div class="row">
+              <div class="col-md-4" id="div1">
+               <h1 id="desco">25% Discount</h1>
+
+               <h1 id="desco1">Online Shop</h1>
+               <p id="para">
+                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+               </p>
+
+               <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+              </div>
+              <div class="col-md-8">
+               <img src="../../assets/images/pngtree4.png" class="d-block w-100" alt="..." height="400px">
+              </div>
+             </div>
+
+          </div>
+        </div>
+
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+         <img src="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Previous-icon.png" alt="" class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <img src="	https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Next-icon.png" alt="" class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+    <div class="navbar d-flex justify-content-center border border-info p-2" id="div2">
+
+      <div class="mx-5">
+        <a class="btn" (click)="tShirts('Mens Casual')"><div class="row" id="a3"><img src="http://www.pensrus.com/blog/wp-content/uploads/2013/04/Promotional_Branded_T.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">T-Shirts</div></a>
+      </div>
+
+      <div class="mx-5">
+        <a class="btn" (click)="tShirts('Jacket')"><div class="row" id="a3"><img src="https://cf.shopee.co.id/file/8d2be274bdce3e31719226aa3fe38873" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Jacket</div></a>
+      </div>
+      <div class="mx-5">
+        <a class="btn" (click)="tShirts('Hard Drive')"><div class="row" id="a3"><img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81WFWi9sKlL._SY450_.jpg" alt="" height="50" width="auto"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Hard Drive</div></a>
+      </div>
+      <div class="mx-5">
+        <a class="btn" (click)="tShirts('SSD')"><div class="row" id="a3"><img src="https://s3.amazonaws.com/rocketstockassets/uploads/SSD-CARDS.jpg" alt="" height="50" width="auto"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Internal SSD</div></a>
+      </div>
+      <div class="mx-5">
+        <a class="btn" (click)="tShirts('Acer')"><div class="row" id="a3"><img src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Acer</div></a>
+      </div>
+      <div class="mx-5 mb-3">
+        <a class="btn" (click)="tShirts('Monitor')"><div class="row" id="a3"><img src="https://images-na.ssl-images-amazon.com/images/I/714mr6GxecL._SL1200_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Monitor</div></a>
+      </div>
+      </div>
+ -->
+
+ <!-- <app-header2></app-header2>
+ <app-header3></app-header3> -->
+
+
+<!--
+
+    <div class="slider1">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+
+
+            <div class="row">
+             <div class="col-md-4" id="div1">
+              <h1 id="desco">50% Discount</h1>
+
+              <h1 id="desco1">Online Shop</h1>
+              <p id="para">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              </p>
+
+              <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+             </div>
+             <div class="col-md-8">
+              <img src="../../assets/images/Pngtree.png" class="d-block w-100" alt="..." height="400px">
+             </div>
+            </div>
+
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+
+            <div class="row">
+              <div class="col-md-4" id="div1">
+               <h1 id="desco" >10% Discount</h1>
+
+               <h1 id="desco1">Online Shop</h1>
+               <p id="para">
+                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+               </p>
+
+               <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+              </div>
+              <div class="col-md-8">
+               <img src="../../assets/images/pngtree2.png" class="d-block w-100" alt="..." height="400px">
+              </div>
+             </div>
+
+
+          </div>
+          <div class="carousel-item">
+
+
+            <div class="row">
+              <div class="col-md-4" id="div1">
+               <h1 id="desco">25% Discount</h1>
+
+               <h1 id="desco1">Online Shop</h1>
+               <p id="para">
+                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+               </p>
+
+               <button mat-raised-button color="warn" id="butt">SHOP NOW</button>
+
+
+              </div>
+              <div class="col-md-8">
+               <img src="../../assets/images/pngtree4.png" class="d-block w-100" alt="..." height="400px">
+              </div>
+             </div>
+
+          </div>
+        </div>
+
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+         <img src="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Previous-icon.png" alt="" class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <img src="	https://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Next-icon.png" alt="" class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+-->
+
+      <!-- <div class="d-flex justify-content-center border border-info" id="div2">
+
+        <div class="p-2">
+          <a class="btn" (click)="tShirts('Mens Casual')"><div class="row" id="a3"><img src="http://www.pensrus.com/blog/wp-content/uploads/2013/04/Promotional_Branded_T.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">T-Shirts</div></a>
+        </div>
+
+        <div class="p-2">
+          <a class="btn" (click)="tShirts('Jacket')"><div class="row" id="a3"><img src="https://cf.shopee.co.id/file/8d2be274bdce3e31719226aa3fe38873" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Jacket</div></a>
+        </div>
+        <div class="p-2">
+          <a class="btn" (click)="tShirts('Hard Drive')"><div class="row" id="a3"><img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81WFWi9sKlL._SY450_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Hard Drive</div></a>
+        </div>
+        <div class="p-2">
+          <a class="btn" (click)="tShirts('SSD')"><div class="row" id="a3"><img src="https://s3.amazonaws.com/rocketstockassets/uploads/SSD-CARDS.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Internal SSD</div></a>
+        </div>
+        <div class="p-2">
+          <a class="btn" (click)="tShirts('Acer')"><div class="row" id="a3"><img src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Acer</div></a>
+        </div>
+        <div class="p-2 mb-3">
+          <a class="btn" (click)="tShirts('Monitor')"><div class="row" id="a3"><img src="https://images-na.ssl-images-amazon.com/images/I/714mr6GxecL._SL1200_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary d-flex justify-content-center mt-2" id="a2">Monitor</div></a>
+        </div>
+        </div>
+  -->

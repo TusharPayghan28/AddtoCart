@@ -1,0 +1,66 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+#desco
+{
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 30px;
+
+}
+
+#para{
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#butt{
+  margin: 30px;
+}
+
+#div1{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.header_section{
+  background-image: url("../../assets/images/pexels.png");
+}
+
+mat-toolbar
+{
+  background-color: rgba(252, 252, 252, 0.3);
+}
+
+example-button-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#div2
+{
+ border-color: black;
+ border-radius: 100px;
+ background-color: rgb(209, 216, 197);
+}
+
+#a3{
+  margin-top: 20px;
+
+}
+
+mat-card{
+  box-shadow: 0 1px 10px 1px #888;
+}
+
+#see{
+  margin: 20px;
+}
+
+mat-grid-list{
+  box-shadow: 0 1px 10px 1px #888;
+}

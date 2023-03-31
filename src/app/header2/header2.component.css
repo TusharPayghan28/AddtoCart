@@ -1,0 +1,219 @@
+/* #t1{
+ margin-top: 10px;
+ padding-right: 20px;
+}
+
+.row a
+{
+  margin-left: 70px;
+}
+
+.row p mat-form-field
+{
+  width: 300px;
+}
+
+.card-footer p{
+  padding: 10px;
+  margin-left: 20px;
+}
+
+li{
+  padding: 5px;
+
+}
+
+
+#row1{
+  padding: 10px;
+  margin-right: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#row1 #col1 a #a2{
+  margin-left: 10px;
+  padding-top: 20px;
+
+}
+
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+#col1{
+  transition: 0.3s ease-in-out;
+}
+#col1:hover{
+  transition:0.3s inherit ;
+  transform:scale(1.2) ;
+}
+
+
+.header{
+  background-image: url("https://fossbytes.com/wp-content/uploads/2020/07/Online-shopping-websites.jpg");
+  padding-bottom: 50px;
+}
+
+mat-card{
+  background-color: rgba(126, 123, 215, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#div1{
+  background-color: rgba(126, 123, 215, 0.3);
+} */
+
+.heading{
+  color: white;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+#desco
+{
+  font-size: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#para{
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#butt{
+  margin: 30px;
+  border-radius: 50px;
+}
+
+#div1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header_section{
+  background-image: url("../../assets/images/pexels.png");
+  /* padding-bottom: 50px; */
+}
+
+mat-toolbar
+{
+  background-color: #090979;
+  padding-left: 30px;
+}
+
+example-button-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#div2
+{
+ border-color: black;
+ border-radius: 100px;
+ background-color: rgb(209, 216, 197);
+ display: flex;
+ margin-top: 15px;
+}
+@media screen and (min-width: 780px) {
+  .navbar{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 780px) {
+  .navbar{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .navbar{
+    max-width: 100%;
+  }
+  #a3{
+    width: auto;
+    height: auto;
+  }
+}
+
+
+
+#a3{
+  margin-top: 20px;
+
+}
+
+mat-card{
+  box-shadow: 0 1px 10px 1px #888;
+}
+
+#see{
+  margin: 20px;
+}
+
+mat-grid-list{
+  box-shadow: 0 1px 10px 1px #888;
+}
+
+marquee
+{
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#desco1
+{
+  font-size: 50px;
+  margin-left: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.slider
+{
+  padding: 140px;
+}
+
+.carousel-control-prev{
+  display: flex;
+  justify-content: start;
+  /* align-items: start; */
+}
+
+
+.slider1
+{
+  padding-top: 150px;
+  /* background-image: url("../../assets/images/pexels.png"); */
+  background-color: rgb(194, 227, 255);
+}
+
+#head{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #13de8a;
+}

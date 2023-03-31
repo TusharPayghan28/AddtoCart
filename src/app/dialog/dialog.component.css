@@ -1,0 +1,24 @@
+#btn
+{
+  margin: 5px;
+}
+
+#card3
+{
+  max-width: 1000px;
+  border: none;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpapercave.com/wp/LeGucC3.jpg");
+}
+
+#row1
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}

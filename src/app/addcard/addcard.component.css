@@ -1,0 +1,102 @@
+.container
+{
+  padding: 20px;
+}
+
+#t2
+{
+  padding: 20px;
+
+}
+#t1{
+ padding: 50px;
+
+}
+
+#t3{
+  margin-top: 20px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+#t4{
+  padding: 20px;
+}
+
+
+#butt
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#btn22{
+ width: 100%;
+}
+
+#home{
+  margin-left: 70px;
+}
+
+#div1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+
+#div2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+
+#div3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+
+#newcard2
+{
+  height: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#t22{
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+mat-card{
+  box-shadow: 0 1px 10px 1px #888;
+}
+

@@ -1,0 +1,59 @@
+<div class="container">
+
+  <form #signIn="ngForm" [formGroup]="registerForm" (ngSubmit)="submitForm()">
+    <div class="heading">
+    <h1 class="text-black text-center" id="h11">CONTACT FORM</h1>
+  </div>
+  <br>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter Full Name</mat-label>
+      <input matInput placeholder="Enter Full Name" name="name" name required ngModel formControlName="name">
+      <mat-icon matSuffix>User</mat-icon>
+    </mat-form-field><br>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter Mobile Number</mat-label>
+      <input matInput placeholder="11-22-33-44-55" name="phone" phone required ngModel formControlName="phone">
+      <mat-icon matSuffix>phone</mat-icon>
+    </mat-form-field><br>
+  </p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Enter Email id</mat-label>
+    <input matInput placeholder="user@gmail.com" name="email" email required ngModel formControlName="email">
+    <mat-icon matSuffix>email</mat-icon>
+  </mat-form-field><br>
+</p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Enter Password</mat-label>
+    <input matInput [type]="hide ? 'password' : 'text'" type="password" name="password" required ngModel formControlName="password">
+    <mat-icon matSuffix>password</mat-icon>
+
+  </mat-form-field>
+</p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Enter Current Address</mat-label>
+    <textarea matInput placeholder="At Post Address" name="address" required ngModel formControlName="address"></textarea>
+    <mat-icon matSuffix>address</mat-icon>
+
+  </mat-form-field>
+</p>
+
+<button mat-flat-button color="warn" [disabled]="!signIn.value" class="b1"  (click)="addForm()">NEXT</button><br><br>
+
+</form>
+
+
+</div>
+
+<div class="row" id="cancel">
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <!-- <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Install</button> -->
+  </mat-dialog-actions>
+  </div>
+

@@ -1,0 +1,26 @@
+.b1{
+  width: 100%;
+}
+
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.yUC7S2EBuUGhwc5GpgcX_AHaEo&pid=Api&P=0"); */
+}
+
+form{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+mat-dialog-actions{
+  /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.yUC7S2EBuUGhwc5GpgcX_AHaEo&pid=Api&P=0"); */
+}
+
+#h11{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,298 @@
+<div class="header_section">
+
+<div class="container">
+
+  <p>
+    <mat-toolbar>
+
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon matBadge="15">shopping_cart</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+  </p>
+
+
+<div class="row">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+
+
+        <div class="row">
+         <div class="col-md-6" id="div1">
+          <h1 id="desco">50% Discount Online Shop</h1>
+
+          <!-- <h1 id="desco">Online Shop</h1> -->
+          <p id="para">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+          </p>
+
+          <button mat-raised-button color="warn" id="butt">Warn</button>
+
+
+         </div>
+         <div class="col-md-6">
+          <img src="../../assets/images/Pngtree.png" class="d-block w-100" alt="..." height="400px">
+         </div>
+        </div>
+
+
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+
+        <div class="row">
+          <div class="col-md-6" id="div1">
+           <h1 id="desco">50% Discount Online Shop</h1>
+<!--
+           <h1 id="desco">Online Shop</h1> -->
+           <p id="para">
+             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+           </p>
+
+           <button mat-raised-button color="warn" id="butt">Warn</button>
+
+
+          </div>
+          <div class="col-md-6">
+           <img src="../../assets/images/Pngtree.png" class="d-block w-100" alt="..." height="400px">
+          </div>
+         </div>
+
+
+      </div>
+      <div class="carousel-item">
+
+
+        <div class="row">
+          <div class="col-md-6" id="div1">
+           <h1 id="desco">50% Discount Online Shop</h1>
+
+           <!-- <h1 id="desco">Online Shop</h1> -->
+           <p id="para">
+             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+           </p>
+
+           <button mat-raised-button color="warn" id="butt">Warn</button>
+
+
+          </div>
+          <div class="col-md-6">
+           <img src="../../assets/images/Pngtree.png" class="d-block w-100" alt="..." height="400px">
+          </div>
+         </div>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<p>
+  <mat-toolbar>
+
+    <a class="navbar-brand text-black"  routerLink="/home" style="padding: 20px;">All</a>
+    <span class="example-spacer"></span>
+    <input type="search" #text class="form-control form-control-white text-bg-white" placeholder="Search...">
+
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>search</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+
+</div>
+</div>
+
+
+
+
+<div class="d-flex justify-content-center" id="div2">
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Mens Casual')"><div class="row" id="a3"><img src="http://www.pensrus.com/blog/wp-content/uploads/2013/04/Promotional_Branded_T.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">T-Shirts</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Jacket')"><div class="row" id="a3"><img src="https://cf.shopee.co.id/file/8d2be274bdce3e31719226aa3fe38873" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Jacket</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Hard Drive')"><div class="row" id="a3"><img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81WFWi9sKlL._SY450_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Hard Drive</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('SSD')"><div class="row" id="a3"><img src="https://s3.amazonaws.com/rocketstockassets/uploads/SSD-CARDS.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Internal SSD</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Acer')"><div class="row" id="a3"><img src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Acer</div></a>
+  </div>
+  <div class="p-2">
+    <a class="btn" (click)="tShirts('Monitor')"><div class="row" id="a3"><img src="https://images-na.ssl-images-amazon.com/images/I/714mr6GxecL._SL1200_.jpg" alt="" height="50" width="50"></div><div class="row h6 text-secondary" id="a2">Monitor</div></a>
+  </div>
+  </div>
+
+  <br><br>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="back">
+      <div class="col" id="newcard">
+        <mat-card class="example-card">
+          <mat-card-header>
+
+            <mat-card-title id="des">title</mat-card-title>
+            <mat-card-subtitle id="des">category</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="../../assets/images/shopping.png" alt="Photo of a Shiba Inu" height="200" id="t22">
+          <mat-card-content>
+            <h3 class="text-warning" id="des">From $500</h3>
+            <p id="des">
+              description
+            </p>
+          </mat-card-content>
+
+          <mat-card-actions>
+
+            <button class="btn btn-warning" id="btn1">Add To Card</button>
+
+            <button class="btn btn-primary" id="btn1">View Product</button>
+          </mat-card-actions>
+        </mat-card>
+
+      </div>
+
+      <div class="col" id="newcard">
+        <mat-card class="example-card">
+          <mat-card-header>
+
+            <mat-card-title id="des">title</mat-card-title>
+            <mat-card-subtitle id="des">category</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="../../assets/images/shopping.png" alt="Photo of a Shiba Inu" height="200" id="t22">
+          <mat-card-content>
+            <h3 class="text-warning" id="des">From $500</h3>
+            <p id="des">
+              description
+            </p>
+          </mat-card-content>
+
+          <mat-card-actions>
+
+            <button class="btn btn-warning" id="btn1">Add To Card</button>
+
+            <button class="btn btn-primary" id="btn1">View Product</button>
+          </mat-card-actions>
+        </mat-card>
+
+      </div>
+
+      <div class="col" id="newcard">
+        <mat-card class="example-card">
+          <mat-card-header>
+
+            <mat-card-title id="des">title</mat-card-title>
+            <mat-card-subtitle id="des">category</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="../../assets/images/shopping.png" alt="Photo of a Shiba Inu" height="200" id="t22">
+          <mat-card-content>
+            <h3 class="text-warning" id="des">From $500</h3>
+            <p id="des">
+              description
+            </p>
+          </mat-card-content>
+
+          <mat-card-actions>
+
+            <button class="btn btn-warning" id="btn1">Add To Card</button>
+
+            <button class="btn btn-primary" id="btn1">View Product</button>
+          </mat-card-actions>
+        </mat-card>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <br><br>
+
+<div class="container">
+<div class="row">
+  <div class="col-md-5">
+   <h1>FACTION PRODUCTS</h1>
+
+   <mat-grid-list cols="2" rowHeight="3:3" >
+    <mat-grid-tile><img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="" height="170px"></mat-grid-tile>
+    <mat-grid-tile><img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="" height="170px"></mat-grid-tile>
+    <mat-grid-tile><img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="" height="170px"></mat-grid-tile>
+    <mat-grid-tile><img src="https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg" alt="" height="170px"></mat-grid-tile>
+  </mat-grid-list>
+  <button mat-raised-button id="see">SEE MORE</button>
+  </div>
+  <div class="col-md-7">
+    <h1>EXPLORE TRENDING ELECTRONICS</h1>
+
+    <mat-card class="example-card">
+    <img src="https://allaboutshoppingtrends.com/wp-content/uploads/2017/10/596073d112a9db0b44194f4d.jpg" alt="" height="450">
+    </mat-card>
+
+    <button mat-raised-button id="see">SEE MORE</button>
+  </div>
+</div>
+<div class="row justify-content-center">
+  <h1>JEWELERY PRODUCTS</h1>
+  <mat-card class="example-card">
+  <img src="../../assets/images/jew.jpg" alt="" height="400">
+  </mat-card>
+</div>
+
+</div>
+
+<br><br>
+
+
+
+<div class="container">
+
+    <h1>FEATURED PRODUCTS </h1>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
+  <div class="row">
+    <div class="col-md-4">
+
+      <div class="row-md-2">
+          <h1>KIDS DRESSES PRODUCTS</h1>
+          <mat-card class="example-card">
+            <img src="	https://tse3.mm.bing.net/th?id=OIP._B_4FnOWIZCKssJjLTA6OwHaHa&pid=Api&P=0" alt="" height="300">
+            </mat-card>
+      </div>
+      <div class="row-md-2">
+           <h1>MOBILE PRODUCTS</h1>
+           <mat-card class="example-card">
+            <img src="	https://tse1.mm.bing.net/th?id=OIP.BynhVTove1024fpkuZNjpAHaEG&pid=Api&P=0" alt="" height="300">
+            </mat-card>
+      </div>
+
+    </div>
+
+    <div class="col-md-8">
+      <h1>KIDS CYCLE PRODUCTS</h1>
+      <mat-card class="example-card">
+        <img src="	https://i.ytimg.com/vi/zqPkNv5gJOk/maxresdefault.jpg" alt="" height="650">
+        </mat-card>
+    </div>
+  </div>
+
+</div>
+
+<br><br>
+

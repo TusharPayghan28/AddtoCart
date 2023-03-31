@@ -1,0 +1,32 @@
+.b1{
+  width: 100%;
+}
+
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 10px 1px #888;
+  /* background-color: #c3b4d9; */
+  /* background-image: url("https://img.freepik.com/free-photo/background_5387…766cfbf09e237d7a35589ef3e18027660da4ec222984f95fb"); */
+}
+
+form{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+#cancel{
+  /* background-color: #c3b4d9; */
+  box-shadow: 0 1px 10px 1px #888;
+  /* background-image: url("https://getwallpapers.com/wallpaper/full/c/2/7/999…stel-colors-background-2560x1600-for-ipad-pro.jpg"); */
+}
+
+
+#h11{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
